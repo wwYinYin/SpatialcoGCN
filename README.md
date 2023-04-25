@@ -44,7 +44,7 @@ Reproduce the Figure 6 of the paper:
   humanheart.ipynb
   ```
   
-Reproduce the Figure 8 of the paper:
+Reproduce the Figure 7 of the paper:
   ```
   mousebrain.ipynb
   ```
