@@ -14,3 +14,18 @@ pip install -r requirements.txt
         SimualtedSpatialData
         SpatialcoGCN-SimData
   ```
+## Tutorial
+For deconvolution:
+  ```
+  run_deconvolution.ipynb
+  ```
+
+SpatialcoGCN-Sim simulates ST data with awareness of spatial topology
+  ```
+  simulated_data.ipynb
+  ```
+
+For recoverring the undetected genes in enhancement of spatial transcriptomics
+  ```
+  run_impute.ipynb
+  ```
