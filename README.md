@@ -8,3 +8,9 @@ pip install -r requirements.txt
 ```
 ## Data preparation
 * Download the simulated data from [SpatialcoGCN_data](https://figshare.com/articles/dataset/SpatialcoGCN_data/22682611) 
+* Then put the downloaded dataset under the data directory
+  ```
+  -data\
+        SimualtedSpatialData
+        SpatialcoGCN-SimData
+  ```
