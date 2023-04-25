@@ -29,3 +29,27 @@ For recoverring the undetected genes in enhancement of spatial transcriptomics
   ```
   run_impute.ipynb
   ```
+For real ST data (the development of human heart and mouse brain) deconvolution:
+  ```
+  run_realdata.ipynb
+  ```
+  
+## visualization
+Reproduce the Figure 4 and Figure 5 of the paper:
+  ```
+  run_deconvolution.ipynb
+  ```
+Reproduce the Figure 6 of the paper:
+  ```
+  humanheart.ipynb
+  ```
+  
+Reproduce the Figure 8 of the paper:
+  ```
+  mousebrain.ipynb
+  ```
+  
+Reproduce the Figure 8 of the paper:
+  ```
+  plot_impute.ipynb
+  ```
