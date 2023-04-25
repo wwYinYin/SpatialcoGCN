@@ -37,7 +37,7 @@ For real ST data (the development of human heart and mouse brain) deconvolution:
 ## visualization
 Reproduce the Figure 4 and Figure 5 of the paper:
   ```
-  run_deconvolution.ipynb
+  plot_deconvolution.ipynb
   ```
 Reproduce the Figure 6 of the paper:
   ```
