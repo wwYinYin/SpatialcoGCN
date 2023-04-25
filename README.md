@@ -7,4 +7,4 @@ Spatial transcriptomics (ST) data has emerged as a pivotal approach to comprehen
 pip install -r requirements.txt
 ```
 ## Data preparation
-* Download the simulated data from [SpatialcoGCN_data] (https://figshare.com/articles/dataset/SpatialcoGCN_data/22682611) 
+* Download the simulated data from [SpatialcoGCN_data](https://figshare.com/articles/dataset/SpatialcoGCN_data/22682611) 
