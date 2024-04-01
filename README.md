@@ -55,7 +55,7 @@ Reproduce the Figure 8 of the paper:
   ```
 
 ## Citation
-If you use SpatialcoGCN, please cite:
-SpatialcoGCN: deconvolution and spatial information–aware simulation of spatial transcriptomics data via deep graph co-embedding (Briefings In Bioinformatics)  
+If you use SpatialcoGCN, please cite:  
+*SpatialcoGCN: deconvolution and spatial information–aware simulation of spatial transcriptomics data via deep graph co-embedding* (Briefings In Bioinformatics)  
 Wang Yin, You Wan, Yuan Zhou  
 https://academic.oup.com/bib/article/25/3/bbae130/7638268?login=true
