@@ -39,17 +39,11 @@ class MyLoss_simulate(nn.Module):
         
         # #pcc
         clusters_pcc_loss=1-compare_results(targets,preds,metric='pcc',axis=1).nanmean()
-        spots_pcc_loss=1-compare_results(targets,preds,metric='pcc',axis=0).nanmean()
+        # spots_pcc_loss=1-compare_results(targets,preds,metric='pcc',axis=0).nanmean()
         # # #cosin_similar
         clusters_cossim_loss=1-F.cosine_similarity(preds,targets,dim=0).mean()
-        spots_cossim_loss=1-F.cosine_similarity(preds,targets,dim=1).mean()
-        alpha_clusters_pcc=1.0
-        alpha_clusters_cossim=1.0
-        alpha_spots_pcc=0
-        alpha_spots_cossim=0
-
-        total_loss=alpha_clusters_pcc*clusters_pcc_loss + alpha_clusters_cossim*clusters_cossim_loss \
-                    + alpha_spots_pcc*spots_pcc_loss + alpha_spots_cossim*spots_cossim_loss
+        # spots_cossim_loss=1-F.cosine_similarity(preds,targets,dim=1).mean()
+        total_loss=clusters_pcc_loss + clusters_cossim_loss
         return total_loss
 
     def forward(self,preds,targets):
